@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Telefon Rehberi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Telefon Rehberi</h1>
+
+    <div class="sort-controls">
+      <button class="sort-button">A-Z</button>
+      <button class="sort-button">Z-A</button>
+      <button class="sort-button">0-9</button>
+      <button class="sort-button">9-0</button>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="İsim, telefon, email veya adres ile ara..." />
+      <button id="searchButton">Ara</button>
+    </div>
+
+    <div class="tag-section">
+      <div id="customTags" class="custom-tags"></div>
+      <button id="addTagButton">@ Etiket Ekle</button>
+      <button id="addContactButton">Kişi Ekle</button>
+    </div>
+
+    <ul class="contact-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

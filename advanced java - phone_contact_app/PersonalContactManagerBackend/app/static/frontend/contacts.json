@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Ahmet Yılmaz",
+    "phone": "0551 123 45 67",
+    "email": "ahmet@example.com",
+    "address": "Balçova, İzmir",
+    "tags": ["İş"]
+  },
+  {
+    "name": "Ayşe Demir",
+    "phone": "0555 987 65 43",
+    "email": "ayse@example.com",
+    "address": "Konak, İzmir",
+    "tags": ["Aile", "Özel"]
+  }
+]

@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e4e2964d;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #81b1c783;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sort-controls {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sort-button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#searchInput {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  margin-left: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tag-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#addTagButton {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #74ec248a;
+  color: rgb(0, 0, 0);
+  border: 2px solid #74ec24;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.custom-tags .tag {
+  background-color: #dcdcdc;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-card {
+  padding-left: 20px;
+  position: relative;
+  border: 1px solid #ddd;
+  margin: 15px 0;
+  padding: 15px 15px 15px 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.contact-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: #4CAF50;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 5px;
+  background-color: #ccc;
+  color: #333;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.edit-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}
+.delete-button {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #c00;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.delete-button:hover {
+  color: #900;
+}
+#addContactButton {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #74ec248a;
+  color: rgb(0, 0, 0);
+  border: 2px solid #74ec24;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Etiket butonundan biraz ayırmak için */
+}
+
+#addContactButton:hover {
+  background-color: #74ec24a0;
+}
+
+.tag-item {
+  display: inline-flex;
+  align-items: center;
+  margin: 2px;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f0f0f0;
+  cursor: default;
+}
+
+.tag-item.selected {
+  background-color: yellow;
+}
+
+.tag-text {
+  margin-right: 4px;
+}
+
+.tag-delete {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #900;
+}
+
+.tag-delete:hover {
+  color: #f00;
+}
+
+.contact-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.contact-tag {
+  display: inline-flex;
+  align-items: center;
+  margin: 2px;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #e0e0e0;
+}
+
+.tag-text {
+  margin-right: 4px;
+}
+
+.tag-unassign {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: #900;
+}
+
+.tag-unassign:hover {
+  color: #f00;
+}
